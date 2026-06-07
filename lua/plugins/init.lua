@@ -16,7 +16,7 @@ return {
     "williamboman/mason-lspconfig.nvim",
     dependencies = { "williamboman/mason.nvim" },
     opts = {
-      ensure_installed = { "pyright" }, -- Automatically installs pyright
+      ensure_installed = { "pyright", "rust_analyzer" }, -- Automatically installs pyright
     },
   },
   {
